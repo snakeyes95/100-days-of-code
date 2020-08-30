@@ -17,10 +17,6 @@ class PlayerClass():
         return (score1+score2)
 
 
-
-
-
-
 if __name__ == '__main__':
     Player1=PlayerClass('Alex',50)
     Player1.practice_game()

@@ -17,7 +17,6 @@ def list_sum(*args):
 if __name__ == '__main__':
     thread1= threading.Thread(target=list_sum,args=[1,2,3,4,5])
     thread1.start()
-
     thread2= threading.Thread(target=list_sum,args=[10,10,10,10])
     thread2.start()
     print('Main ends here !')

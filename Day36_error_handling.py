@@ -12,7 +12,6 @@ def sum():
             break
         except:
             print('something went wrong')
-            break
         else:
             print('Thanks you very much !')
         finally:
